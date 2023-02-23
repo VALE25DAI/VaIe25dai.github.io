@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabaja con nosotros</title>
+    <link rel="stylesheet" type="text/css" href="funciones.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oregano&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h2 id="Texto" class="Texto">Completa el siguente formulario: </h2>
+    <p id="Texto" class="Texto1"> Si quieres trabajabar con nosotros completa el siguiente</p>
+      <p id="Texto" class="Texto1">formulario y al terminas pulsa en el boton Enviar</p>
+    <h3 class="Texto3">Datos Personales:</h3>
+      <form class="Form">
+        <label id="Name" class="Name">Nombre:</label>      
+         <input type="text" name="nombre" class="dma" required required placeholder="Ingrese su Nombre"/>
+       <label id="Apellido" class="Name">Apellido:</label>
+        <input type="text" name="apellido" class="dma" required required placeholder="Ingrese su Apellido"/>
+   </form><br>
+
+   <form class="Form">
+       <label for="Documento" class="Name">Documento:</label>    
+         <input type="text" name="Número" id="dma" size="11" required required placeholder="Ingrese el N° del Documento"/>
+        <label class="Name">Nacimiento:</label>
+           <input type="date" id="dma"class="dma" name="Fecha de Nacimiento" required/>
+  </form><br>  
+
+  <form class="Form">
+      <label class="Name">País</label>
+       <input type="text" class="dma" name="País" required size="15"/>
+      <label class="Name">Provincia</label>
+       <input type="text" class="dma" name="Provincia" required size="15"/>
+    </form><br>
+    <form class="Form">
+      <label class="Name">Ciudad</label>
+       <input type="text" class="dma" name="Ciudad" size="15" required/>
+     <label class="Name">Dirrección</label>
+      <input type="text" class="dma" name="Dirrección" size="20" required/>
+     <label class="Name">Número</label>
+          <input type="text" class="num" name="Número" size="5" required/>
+    </form><br>
+    <from class="Form">
+     <label class="Name">Departamento</label>
+      <input type="text" class="dma" name="Departamento"/>
+     <label for="Piso" class="Name">Piso:</label>
+      <input type="number" id="Piso Depto." name="Piso" min="1" max="20"/>
+      <label class="Name">Código Postal</label>
+         <input type="text" class="num" name="Código Postal" size="6" required/>
+   </from>
+   <from class="Form"><br>
+    <br><label for="phone" class="Name">Ingresar el teléfono:</label>
+        <input type="tel" class="Name" id="phone" name="phone" pattern="[0-9]{3} [0-9]{3} [0-9]{4}">
+       <label for="email" class="Name">Ingresar el Mail:</label>
+         <input type="email" class="Name" id="email" name="email" required/>
+    </form><br>
+    <h3 class="Texto3">Estudios Terminados:</h3>
+    <form class="Form">
+      <label for="Secundario" class="Name">Secundario:</label>
+  <select id="Secundario" name="Secundario">
+    <option value="Completo">Completo</option>
+    <option value="Imcompleto">Incompleto</option>
+  </select>
+  <label for="Terciario" class="Name">Terciario:</label>
+  <select id="Terciario" name="Terciario">
+    <option value="Completo">Completo</option>
+    <option value="Incompleto">Incompleto </option>
+    <option value="No realice">No realice</option>
+  </select>
+  <label for="Universitario" class="Name">Universitario:</label>
+  <select id="Universitario" name="Universitario">
+    <option value="Completo">Completo</option>
+    <option value="Incompleto">Incompleto </option>
+    <option value="No realice">No realice</option>
+  </select>
+  <label class="Name">Año en que dejo la carrera:</label>
+  <input type="number" class="Name" id="Años" name="Años" min="1" max="6">
+    </form>
+    <h3 class="Texto3">Estudios en Curso:</h3>
+    <from class="Form"><br>
+    <label id="Carrera" class="Name">Estudio en Curso:</label>
+  <input type="text" class="Name" name="nombre"/>
+  <label class="Name">Año en el que se encuentra cursando:</label>
+  <input type="number" id="Años" name="Años" min="1" max="6">
+    </form>
+
+    <h3 class="Texto3">Experiencias Laboral:</h3>
+    <p class="Texto1">Tilde la opción correcta:</p>
+  <form action="/action_page.php" class="Form">
+    <input type="checkbox" id="afirmativo" name="afirmativo" value="Si">
+    <label for="afirmativo" class="Name">Si</label><br>
+    <input type="checkbox" id="negativo" name="negativo" value="No">
+    <label for="negativo" class="Name">No</label><br>
+ </form><br>
+<form class="Form">
+<label id="TP" class="Name">Trabajo que realizo:</label><br> 
+<br><label class="Name">1</label>
+<input type="text" class="Name" name="Cual"/>
+<label class="Name">Cuantos años trabajo:</label>
+<input type="number" id="Años" name="Años" min="1" max="20"><br>
+<br><label class="Name">2</label>
+<input type="text" class="Name" name="Cual"/>
+<label class="Name">Cuantos años trabajo:</label>
+<input type="number" id="Años" name="Años" min="1" max="20"><br>
+<br><label class="Name">3</label>
+<input type="text" class="Name" name="Cual"/>
+<label class="Name">Cuantos años trabajo:</label>
+<input type="number" id="Años" name="Años" min="1" max="20">
+</form>
+<h3 class="Texto3">Conocimiento en idiomas:</h3>
+<p class="Texto1">Tilde la opción correcta:</p>
+  <form action="/action_page.php" class="Form">
+    <input type="checkbox"  id="afirmativo" name="afirmativo" value="Si">
+    <label for="afirmativo" class="Name">Si</label><br>
+    <input type="checkbox" id="negativo" name="negativo" value="No">
+    <label for="negativo" class="Name">No</label><br>
+</form><br>
+<form class="Form">
+  <input type="text" name="Idiomas" class="Name" required placeholder="Ingrese el idioma"/>
+  <select id="Idiomas" name="Idiomas">
+    <option value="Inicial">Inicial</option>
+    <option value="Intermedio">Intermedio </option>
+    <option value="Avanzado">Avanzado</option>
+  </select>
+</form><br>
+<form class="Form">
+  <input type="text" name="Idiomas" class="Name" required placeholder="Ingrese el idioma"/>
+  <select id="Idiomas" name="Idiomas">
+    <option value="Inicial">Inicial</option>
+    <option value="Intermedio">Intermedio </option>
+    <option value="Avanzado">Avanzado</option>
+  </select>
+</form><br>
+<form class="Form">
+  <input type="text" name="Idiomas" class="Name" required placeholder="Ingrese el idioma"/>
+  <select id="Idiomas" name="Idiomas">
+    <option value="Inicial">Inicial</option>
+    <option value="Intermedio">Intermedio </option>
+    <option value="Avanzado">Avanzado</option>
+  </select>
+</form><br>
+<form class="Form">
+  <input type="text" name="Idiomas" class="Name" required placeholder="Ingrese el idioma"/>
+  <select id="Idiomas" name="Idiomas">
+    <option value="Inicial">Inicial</option>
+    <option value="Intermedio">Intermedio </option>
+    <option value="Avanzado">Avanzado</option>
+  </select>
+</form><br>
+<h3 class="Texto3">Conocimiento Informatico:</h3>
+<p class="Texto1">Tilde la opción correcta:</p>
+  <form action="/action_page.php" class="Form">
+    <input type="checkbox" id="afirmativo" name="afirmativo" value="Si">
+    <label for="afirmativo" class="Name">Si</label><br>
+    <input type="checkbox" id="negativo" name="negativo" value="No">
+    <label for="negativo" class="Name">No</label><br>
+</form><br>
+<form class="Form">
+  <input type="text" name="Informatico" class="Name" required placeholder="Ingrese el Progama"/>
+  <select id="Progama" name="Progama">
+    <option value="Inicial">Inicial</option>
+    <option value="Intermedio">Intermedio </option>
+    <option value="Avanzado">Avanzado</option>
+  </select>
+</form><br>
+<form class="Form">
+  <input type="text" name="Informatico" class="Name" required placeholder="Ingrese el Progama"/>
+  <select id="Progama" name="Progama">
+    <option value="Inicial">Inicial</option>
+    <option value="Intermedio">Intermedio </option>
+    <option value="Avanzado">Avanzado</option>
+  </select>
+</form><br>
+<form class="Form">
+  <input type="text" name="Informatico" class="Name" required placeholder="Ingrese el Progama"/>
+  <select id="Progama" name="Progama">
+    <option value="Inicial">Inicial</option>
+    <option value="Intermedio">Intermedio </option>
+    <option value="Avanzado">Avanzado</option>
+  </select>
+</form><br>
+<form class="Form">
+  <input type="text" name="Informatico" class="Name" required placeholder="Ingrese el Progama"/>
+  <select id="Progama" name="Progama">
+    <option value="Inicial">Inicial</option>
+    <option value="Intermedio">Intermedio </option>
+    <option value="Avanzado">Avanzado</option>
+  </select>
+</form><br>
+  <form class="Form">
+    <label id="OBCUA" class="Name">Objetivos y cualidades:</label><br>
+    <textarea name="message" class="Name" rows="15" cols="50">
+      Explaye cuáles son sus cualidades y objetivos.
+      </textarea>
+  </form><br>
+
+  <form id="Click" action="/action_page.php">
+    <input type="submit" value="Enviar">
+  </form>
+
+  <script src="js/Funciones.js"></script>
+
+<!--este es un comentario par aclarar que hubo cosas que no me salieron  apesar de haber investigado
+y haber copiado de ejemplos y luego modificado o de haber heche tal cual explica el profesor en el video
+uno de ellos fue el poner lo que va en java un un documento nuevo; otro fue utilizar el checkbox para la parte del SI,NO
+tampoco pude aplicar correctamente el width y el float ya que se me movia de lugar todo el código a persar de
+no haber modificado la estructura-->
+
+  <button onclick="myFunctiones()">Presiona</button>
+
+  <div id ="Presiona">
+  Gracias por contar con nosotros.
+  </div>
+  
+  <script>
+    function myFunctiones() {
+      var x = document.getElementById("Presiona");
+      if (x.style.display == "none" ) {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+
+</body>
+</html>
