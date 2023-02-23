@@ -1,0 +1,159 @@
+
+
+/*
+NO ME FUNCIONO
+table{
+    border-left: 10px;
+    margin-left: 10px;
+}
+.center {
+    padding: 70px 0;
+    border: 3px 
+    text-align: center;
+  }
+  .form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+  .form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+
+     margin-right: 10px;
+     margin-left: 20px;
+     
+width: 50%;
+border: 3px solid green;
+padding: 10px;
+box-sizing: border-box;
+
+
+margin-right: 20px;
+   height: 30px;
+   width: 30%;
+  }
+ padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+ float: center;
+**/
+*{
+  background-color: #92ACF7;
+}
+*{
+    box-sizing: border-box;
+}
+
+.Name{
+   font-family: 'Patrick Hand', cursive;
+   font-weight: bold;
+   font-size: 18px;
+   color: blue;
+   margin-right: 25px;
+   margin-left: 20px;
+   width: 25%;
+  
+  }
+.Texto{
+    font-family: 'Oregano', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    color: blue;
+   width: 100%;
+   float: left;
+   }
+.Texto1{
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    color: blue;
+  width: 100%;
+  float: left;
+}
+.Texto3{
+    font-family: 'Oregano', cursive;
+    font-size: 24px;  
+    color: blue;
+   width: 100%;
+   float: left;
+  }
+  .dma{
+    color: black;
+  width: 20%;
+  margin-right: 20px;
+
+}
+.num{
+  font-family: 'Patrick Hand', cursive;
+  font-weight: bold;
+  font-size: 18px;
+  color: blue;
+  margin-right: 20px;
+  width: 5%;
+}
+#dma{
+  color: black;
+  margin-right: 25px;
+  margin-left: 20px;
+  width: 15%;
+}
+#Presiona{
+  font-family: 'Patrick Hand', cursive;
+   font-weight: bold;
+   font-size: 18px;
+   color: blue;
+}
+/*
+NO ME FUCIONO
+</form><br>
+    <from class="Form">
+
+ 
+
+
+
+#PisoDepto{
+    width: 75%;
+    float: right;
+}
+
+
+
+
+#Nace{
+margin-right: 20px;
+margin-left: 20px;
+text-align: center;
+}
+
+margin-right: 15px;
+   margin-left: 5px;
+   margin-bottom: 5px;
+border-width: 100%;
+
+#Apellido{
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+ #phone{
+      margin-right: 20px;
+    margin-left: 20px;
+            }
+  #email{
+            margin-right: 20px;
+            margin-left: 20px;
+            }
+        **/
